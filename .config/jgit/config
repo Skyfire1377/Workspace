@@ -1,0 +1,3 @@
+[filesystem "Ubuntu|11.0.11|/dev/root"]
+	timestampResolution = 22000 nanoseconds
+	minRacyThreshold = 15428 microseconds
