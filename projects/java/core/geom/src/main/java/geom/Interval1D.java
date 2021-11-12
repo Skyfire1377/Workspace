@@ -14,19 +14,27 @@ public class Interval1D{
 		return r;
 	}
 	public static boolean intersect(Interval1D a, Interval1D b){
-		boolean result = true;
+		
 		if((a.getL() > b.getR()) || (a.getR() < b.getL())){
-			result = false;
+			return false;
 		}
-		return result;
+		return true;
+	}
+	public static boolean containsInFirst(Interval1D a, Interval1D b){
+		
+		if((a.getL()<b.getL())&&(a.getR()>b.getR())){
+			return true;
+		}
+
+		return false;
 	}
 	public static boolean contain(Interval1D a, Interval1D b){
-		if((a.getL()<b.getL()&&a.getR()>b.getR())||(a.getL()>b.getL()&&a.getR()<b.getR())){
+		if(containsInFirst(a, b)||containsInFirst(b, a)){
 			return true;
 		}
 		return false;
 	}
 	public String toString(){
-		return "{"+l+", "+r+"} ";
+		return "{"+ getL() +", "+ getR() +"} ";
 	}
 }

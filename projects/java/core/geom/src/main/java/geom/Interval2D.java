@@ -14,7 +14,7 @@ public class Interval2D{
 		return verticalInterval;
 	}
 	public static boolean intersect(Interval2D iv1, Interval2D iv2){
-		if (!Interval1D.intersect(iv1.getHorisontalInterval(), iv2.getHorisontalInterval())||!Interval1D.intersect(iv1.getVerticalInterval(), iv2.getVerticalInterval())){
+		if (Interval1D.intersect(iv1.getHorisontalInterval(), iv2.getHorisontalInterval())||Interval1D.intersect(iv1.getVerticalInterval(), iv2.getVerticalInterval())){
 			return true;
 		}
 		return false;
@@ -24,6 +24,7 @@ public class Interval2D{
 			return false;
 		}
 		return true;
+
 	}
 	public String toString(){
 		return "Horisontal: {" + getHorisontalInterval().getL() + " " + getHorisontalInterval().getR() + "}, Vertical: {" + getVerticalInterval().getL() + " " + getVerticalInterval().getR() + "} ";

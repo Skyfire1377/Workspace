@@ -13,14 +13,14 @@ class OverlappingIntervals2D{
 	for(int i = 0;i<list.size(); i++){
 		Interval2D inv = list.get(i);
 		
-		for(int j = i;j<list.size();j++){
+		for(int j = i+1;j<list.size();j++){
 			Interval2D inv2 = list.get(j);
-			if(Interval2D.intersect(inv, inv2)){
-				//if(Interval2D.contain(inv, inv2)){
-					//out.println("An interval contains an another: " + inv.toString() + " " + inv2.toString());
-				//}
-				out.println(inv.toString() + " " + inv2.toString());
-			}
+			//if(Interval2D.intersect(inv, inv2)){
+
+				if(Interval2D.contain(inv, inv2)){
+					out.println("An interval contains an another: " + inv.toString() + " " + inv2.toString());
+				}
+			//}
 		}	
 		//Out out = new Out();
 		//out.log("Hello");
