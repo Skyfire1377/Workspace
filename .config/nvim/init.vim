@@ -355,11 +355,11 @@ let g:rooter_patterns = ['build.gradle']
   filetype plugin on
   "set autochdir
  "User interface oprions
-  colorscheme PaperColor 
+  colorscheme dracula
   
   "let ayucolor="dark"
   "set termguicolors     " enable true colors support
-  set background=light
+  "set background=light
   set cursorline
   set cursorcolumn
   set wildmenu
@@ -470,7 +470,7 @@ function! GoToRoot()
 endfunction
 function! CreateSubProject(name)
 
-	call luaeval('appbuilder.createSubProject(_A)', a:name)
+	call luaeval('appbuilder:createSubProject(_A)', a:name)
 endfunction
 function! Test1(name)
 endfunction
@@ -538,6 +538,7 @@ nnoremap <C-h> ^
 nnoremap <C-l> $
 nnoremap <leader>n :NERDTree .<CR>
 nnoremap <Tab> :tabnext<ENTER>
+nnoremap <S-Tab> :tabprevious<ENTER>
 nnoremap = $
 nnoremap - ^
 nnoremap <A-s> :GoToSrc<ENTER>

@@ -1,8 +1,9 @@
 out = require('out')
+timer = require('timer')
 local appbuilder = {}
 --appbuilder.__index=appbuilder
 function appbuilder:tb()
-	local path = self.nTreeGetPathToSelected()
+	local path = self:nTreeGetPathToSelected()
 	--local list = appbuilder.split(path, "/")
 	local command = string.format([[
 		execute "tabe"
@@ -18,9 +19,10 @@ end
 function appbuilder:goToRoot()
 
 	--print(pathOfSelected)
+	local pathOfSelected = self:nTreeGetPathToSelected()
 	local list = self:split(pathOfSelected, "/")
 	--print(table.getn(list))
-	local index = self:IndexOf(list, "apps")
+	local index = self:indexOf(list, "core")
 	local path =""
 	if index ~= -1 then
 		for i=1,index+1,1
@@ -33,12 +35,16 @@ function appbuilder:goToRoot()
 	vim.api.nvim_exec(command, true)
 end
 function appbuilder:goToSrc()
+	timer:start()
+
 	local path = self:nTreeGetPathToSelected()
 	local list = self:split(path, "/")
 	local name = list[table.getn(list)]
 	local searchedPath = string.format("%s/src/main/java/%s/", path, name)	
 	local command = string.format([[NERDTreeFind %s]], searchedPath)
 	vim.api.nvim_exec(command, false)
+	timer:finish()
+	out:log("open src time: "..timer:result())
 end
 function appbuilder:split(data, separator)
 	t = {}

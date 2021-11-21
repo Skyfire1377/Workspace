@@ -12,6 +12,6 @@ public class Timer{
 		return endTime - startTime;
 	}
 	public String toString(){
-		return "Time is: " + String.valueOf((double)(result())/1000) + " seconds";
+		return "Time is: " + (double)result()/1000 + " seconds";
 	}
 }	

@@ -27,7 +27,7 @@ public class IOFiles{
 			File f = new File(path);
 			Scanner sc = new Scanner(f);
 			while(sc.hasNextLine()){
-				s += sc.nextLine() + "\n";
+				s += sc.nextLine();
 			}
 			sc.close();
 		}catch(IOException e){

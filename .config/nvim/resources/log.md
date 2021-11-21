@@ -160,3 +160,140 @@
 2021/11/04 13:31:32 utils
 2021/11/04 15:07:32 overlappingIntervals
 2021/11/04 15:07:44 overlappingIntervals
+2021/11/06 14:56:19 overlappingIntervals
+2021/11/06 14:58:10 overlappingIntervals
+2021/11/07 13:40:47 geom
+2021/11/08 12:40:38 overlappingIntervals
+2021/11/08 12:43:45 geom
+2021/11/08 12:44:30 geom
+2021/11/08 12:51:45 factories
+2021/11/08 12:52:06 factories
+2021/11/08 23:47:13 overlappingIntervals
+2021/11/09 00:09:03 geom
+2021/11/09 00:15:51 geom
+2021/11/09 11:22:50 overlappingIntervals
+2021/11/09 11:26:52 overlappingIntervals
+2021/11/09 12:33:42 utils
+2021/11/10 01:30:03 ciclingRotation
+2021/11/10 01:40:54 ciclingRotation
+2021/11/10 02:00:00 ciclingRotation
+2021/11/10 07:54:29 ciclingRotation
+2021/11/10 11:54:53 ciclingRotation
+2021/11/10 12:00:15 utils
+2021/11/10 19:26:31 ciclingRotation
+2021/11/11 01:28:20 ciclingRotation
+2021/11/11 07:50:30 ciclingRotation
+2021/11/11 12:16:48 ciclingRotation
+2021/11/11 12:27:41 ciclingRotation
+2021/11/12 12:25:46 ciclingRotation
+2021/11/13 08:01:28 ciclingRotation
+2021/11/13 08:02:37 ciclingRotation
+2021/11/13 17:07:05 ciclingRotation
+2021/11/13 18:03:37 ciclingRotation
+2021/11/14 02:11:34 ciclingRotation
+2021/11/14 02:12:58 ciclingRotation
+2021/11/14 02:21:12 ciclingRotation
+2021/11/14 02:52:33 ciclingRotation
+2021/11/14 02:59:29 ciclingRotation
+2021/11/14 03:10:35 utils
+2021/11/14 03:31:08 generators
+2021/11/14 04:03:56 generators
+2021/11/14 21:24:52 generators
+2021/11/15 08:40:15 generators
+2021/11/15 09:36:29 generators
+2021/11/15 12:01:09 utils
+2021/11/15 15:39:05 utils
+2021/11/15 22:05:04 generators
+2021/11/16 09:47:32 generators
+2021/11/16 09:55:50 generators
+2021/11/16 12:32:35 generators
+2021/11/16 15:53:07 utils
+2021/11/16 22:18:55 generators
+2021/11/16 22:41:54 factories
+2021/11/16 22:44:07 factories
+2021/11/16 22:44:27 factories
+2021/11/16 22:45:09 factories
+2021/11/17 12:46:43 utils
+2021/11/17 12:46:59 utils
+2021/11/17 12:47:15 utils
+2021/11/17 12:48:13 generators
+2021/11/17 12:49:19 factories
+2021/11/18 00:04:18 generators
+2021/11/18 00:29:39 generators
+2021/11/18 12:41:06 generators
+2021/11/18 12:41:10 generators
+2021/11/18 14:59:47 factories
+2021/11/18 15:04:49 factories
+2021/11/18 15:09:03 utils
+2021/11/18 15:11:13 generators
+2021/11/18 15:12:36 factories
+2021/11/18 22:20:26 resourcesCreator
+2021/11/18 22:24:40 resourcesCreator
+2021/11/18 22:36:01 resourcesCreator
+2021/11/18 22:44:48 resourcesCreator
+2021/11/18 22:49:03 factories
+2021/11/18 22:49:26 factories
+2021/11/19 00:07:17 utils
+2021/11/19 00:17:39 utils
+2021/11/19 00:20:02 resourcesCreator
+2021/11/19 00:26:07 ciclingRotation
+2021/11/19 12:31:08 resourcesCreator
+2021/11/19 12:51:23 utils
+2021/11/19 12:51:44 utils
+2021/11/19 23:10:44 0.028864
+2021/11/19 23:13:12 0.034974
+2021/11/19 23:14:23 0.92243
+2021/11/20 00:06:43 0.946668
+2021/11/20 00:06:46 utils
+2021/11/20 00:20:21 1.049738
+2021/11/20 00:20:48 resourcesCreator
+2021/11/20 07:49:28 0.905929
+2021/11/20 07:49:42 resourcesCreator
+2021/11/20 07:50:32 1.166274
+2021/11/20 08:06:03 resourcesCreator
+2021/11/20 08:06:45 resourcesCreator
+2021/11/20 08:42:32 0.90586299999998
+2021/11/20 08:42:37 factories
+2021/11/20 08:42:59 factories
+2021/11/20 08:43:37 utils
+2021/11/20 09:51:19 open src time: 0.97941900000001
+2021/11/20 09:51:47 ciclingRotation
+2021/11/20 11:10:24 open src time: 1.059378
+2021/11/20 11:10:31 utils
+2021/11/20 11:12:02 open src time: 1.166099
+2021/11/20 11:13:37 open src time: 1.210898
+2021/11/20 13:40:13 open src time: 0.952415
+2021/11/20 13:40:17 utils
+2021/11/20 13:42:35 open src time: 0.86909
+2021/11/20 13:42:49 resourcesCreator
+2021/11/20 14:04:04 open src time: 0.836856
+2021/11/20 14:04:07 resourcesCreator
+2021/11/20 14:04:47 open src time: 1.062712
+2021/11/20 14:04:51 ciclingRotation
+2021/11/20 14:33:18 open src time: 0.973376
+2021/11/20 14:33:21 generators
+2021/11/20 14:33:45 open src time: 0.868656
+2021/11/20 14:33:56 factories
+2021/11/20 14:34:23 factories
+2021/11/20 14:36:50 utils
+2021/11/20 15:06:22 ciclingRotation
+2021/11/20 18:20:11 open src time: 0.889055
+2021/11/20 18:20:22 ciclingRotation
+2021/11/20 18:34:33 ciclingRotation
+2021/11/20 18:34:54 open src time: 1.102968
+2021/11/20 18:34:57 utils
+2021/11/20 18:39:07 open src time: 0.66425799999999
+2021/11/20 18:39:09 utils
+2021/11/20 18:40:17 utils
+2021/11/20 23:50:22 open src time: 1.119334
+2021/11/20 23:50:24 resourcesCreator
+2021/11/20 23:51:00 utils
+2021/11/21 00:32:39 open src time: 0.77338399999996
+2021/11/21 00:32:44 resourcesCreator
+2021/11/21 10:38:07 open src time: 0.706245
+2021/11/21 10:38:09 ciclingRotation
+2021/11/21 10:39:36 ciclingRotation
+2021/11/21 10:43:45 open src time: 1.009637
+2021/11/21 10:44:14 resourcesCreator
+2021/11/21 12:45:22 open src time: 0.579431
+2021/11/21 12:46:02 searchers

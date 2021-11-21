@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CiclingRotation	src/main/java/ciclingRotation/CiclingRotation.java	/^public class CiclingRotation {$/;"	c
+CiclingRotationFinder	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^public class CiclingRotationFinder{$/;"	c
+CiclingRotationTest	src/test/java/ciclingRotation/CiclingRotationTest.java	/^class CiclingRotationTest {$/;"	c
+checkCursorControl	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^	public boolean checkCursorControl(String  baseString, String testString){$/;"	m	class:CiclingRotationFinder
+checkIndexOf	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^	public boolean checkIndexOf(String baseString, String testString){$/;"	m	class:CiclingRotationFinder
+checkSubString	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^	public boolean checkSubString(String baseString, String testString){$/;"	m	class:CiclingRotationFinder
+ciclingRotation	src/main/java/ciclingRotation/CiclingRotation.java	/^package ciclingRotation;$/;"	p
+ciclingRotation	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^package ciclingRotation;$/;"	p
+ciclingRotation	src/test/java/ciclingRotation/CiclingRotationTest.java	/^package ciclingRotation;$/;"	p
+main	src/main/java/ciclingRotation/CiclingRotation.java	/^    public static void main(String[] args) {$/;"	m	class:CiclingRotation
+out	src/main/java/ciclingRotation/CiclingRotationFinder.java	/^	public Out out = new Out();$/;"	f	class:CiclingRotationFinder
