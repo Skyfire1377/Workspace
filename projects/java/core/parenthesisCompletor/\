@@ -1,0 +1,83 @@
+package parenthesisCompletor;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+class MultiTree implements Iterable<Structurable>{
+	protected Structurable result;
+	protected Structurable current;
+	public StructurableIterator iterator(){
+		return new StructurableIterator();
+	}
+	public void add(Structurable v){
+		current.add(v);
+	}
+	public void addToResult(Structurable v){
+		result.add(v);
+	}
+	public void addToResultOperation(String s){
+		result.addOperation(s);
+	}
+	public void addOperation(String s){
+		current.addOperation(s);
+	}
+	public void setParent(Structurable v){
+		current.setParent(v);
+	}
+	public Structurable getParent(){
+		return current.getParent();
+	}
+	public boolean hasParent(){
+		return current.hasParent();
+	}
+	public Structurable getCurrent(){
+		return current;
+	}
+	public void setCurrent(Structurable v){
+		current = v;
+	}
+	public void clearCurrent(){
+		current = new Sentence();
+	}
+	private class StructurableIterator implements Iterator<Structurable>{
+		Structurable current = new Sentence();
+		Node currentNode = new Node(current);
+		public Structurable next(){
+
+		}
+		public boolean hasNext(){
+			return false;
+		}
+		public Node findNext(Node last){
+			if(!last.getSentence().isEmpty()){
+				if(last.getIndex()<last.getSentence().getSentences().size()-1){
+					Node newNode = new Node(last.getSentence().getSentences().get(last.getIndex()));
+					last.addNode(newNode);
+				}
+			}
+		}
+	private class Node{
+		public Node(Structurable _s){sentence=_s;}
+			Structurable sentence;
+			Node parent;
+			List<Node> nodes = new ArrayList<>();
+			int i=0;
+			public Structurable getSentence(){
+				return sentence;
+			}
+			public void addNode(Node n){
+				nodes.add(n);
+			}
+			public Node getNode(int i){
+				return nodes.get(i);
+			}
+			public int getIndex(){
+				return i;
+			}
+			public void increaseIndex(){
+				i++;
+			}
+		}
+	}
+}

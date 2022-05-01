@@ -6,9 +6,11 @@ package resourcesCreator;
 public class ResourcesCreator {
 
     public static void main(String[] args) {
-	FilesWithRandomLettersCreator fwrl = new FilesWithRandomLettersCreator();
-	fwrl.create();
-	fwrl.shift();
+	//FilesWithRandomLettersCreator fwrl = new FilesWithRandomLettersCreator();
+	//FilesWithRandomDoublesCreator fwrd = new FilesWithRandomDoublesCreator();
+	FilesWithRandomIntegersCreator fwri = new FilesWithRandomIntegersCreator();
+	fwri.create();
+	//fwrl.shift();
     }
 }
 

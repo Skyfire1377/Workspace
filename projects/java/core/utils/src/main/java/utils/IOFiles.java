@@ -11,8 +11,20 @@ public class IOFiles{
 		path = p;
 	}
 	public void write(String s){
+
 		try{
 			FileWriter fw = new FileWriter(path);
+			fw.write(s);
+			fw.close();
+		}catch(IOException e){
+			System.out.println("Error occured");
+			e.printStackTrace();
+		}
+	}
+	public void append(String s){
+
+		try{
+			FileWriter fw = new FileWriter(path, true);
 			fw.write(s);
 			fw.close();
 		}catch(IOException e){

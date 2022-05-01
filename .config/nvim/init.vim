@@ -373,8 +373,13 @@ let g:rooter_patterns = ['build.gradle']
   set laststatus=2
   "Indention options
   set autoindent
-  set softtabstop=2
-  set list
+  set cin
+  set si
+  "inoremap { {<CR>}<Esc>O	 
+
+
+  set softtabstop=1
+  
   "Search options
   set ignorecase
   "Text render options
@@ -536,14 +541,20 @@ nnoremap <C-n> :tabnext<ENTER>
 
 nnoremap <C-h> ^
 nnoremap <C-l> $
+vnoremap <C-h> ^
+vnoremap <C-l> $
 nnoremap <leader>n :NERDTree .<CR>
-nnoremap <Tab> :tabnext<ENTER>
-nnoremap <S-Tab> :tabprevious<ENTER>
+nnoremap <Tab> :tabprevious<ENTER>
+nnoremap <BS> :tabnext<ENTER>
+"nnoremap <S-Tab> :tabprevious<ENTER>
 nnoremap = $
 nnoremap - ^
+vnoremap = $
+vnoremap - ^
 nnoremap <A-s> :GoToSrc<ENTER>
 nnoremap <A-r> :GoToRoot<ENTER>
 nnoremap <A-t> :Tree<ENTER>
+nnoremap ` :tabprevious <ENTER>
 tnoremap <silent> <Esc> <C-\><C-n>
 "inoremap <silent> <Esc> <C-O>:stopinsert<CR>
 inoremap jj <Esc>
@@ -551,6 +562,7 @@ inoremap <C-Space> <C-x><C-o>
 
 "command options 
 command! EditConfig :tabe | :e $MYVIMRC 
+					
 
 command! Tb call Tb()
 command! Terminal call Terminal()
