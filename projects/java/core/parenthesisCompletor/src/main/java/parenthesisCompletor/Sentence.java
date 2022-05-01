@@ -19,15 +19,6 @@ public class Sentence implements Structurable{
 	public void addOperation(String o){
 		operations.add(o);
 	}
-	public void visit(){
-		if(sentences.size()==0){
-			parent.fill(value);
-		}
-
-	}
-	public void fill(String data){
-
-	}
 	public void setParent(Structurable _parent){
 		parent = _parent;	
 	}
@@ -57,6 +48,9 @@ public class Sentence implements Structurable{
 	}
 	public boolean isEmpty(){
 		return sentences.size()==0;
+	}
+	public String getValue(){
+		return value;
 	}
 }
 	

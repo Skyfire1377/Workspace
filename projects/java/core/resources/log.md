@@ -487,3 +487,341 @@
 2022/04/30 18:19:10 !isEmpty
 2022/04/30 18:19:10 [c , s , s ]
 2022/04/30 18:19:10 [n, o, n, o, n, b, o, n, o, n, b, b, o, n, o, n]
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 0
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@29ca901e
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 2
+2022/05/01 11:21:21 last.i = 0
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@5649fd9b
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 0
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@6adede5
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 1
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@2d928643
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 2
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@5025a98f
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 2
+2022/05/01 11:21:21 last.i = 1
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@49993335
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 2
+2022/05/01 11:21:21 last.i = 0
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@20322d26
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 2
+2022/05/01 11:21:21 last.i = 1
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@192b07fd
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 1
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@64bfbc86
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 in range, addNode, increase
+2022/05/01 11:21:21 size is 3
+2022/05/01 11:21:21 last.i = 2
+2022/05/01 11:21:21 parenthesisCompletor.Sentence@64bf3bbf
+2022/05/01 11:21:21 isEmpty, go to parent
+2022/05/01 11:21:21 is not empty
+2022/05/01 11:21:21 no parent
+2022/05/01 11:21:21 [c , s , s ]
+2022/05/01 11:21:21 [n, o, n, o, n, b, o, n, o, n, b, b, o, n, o, n]
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@4566e5bd
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@1ed4004b
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@ff5b51f
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@25bbe1b6
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@5702b3b1
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@69ea3742
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@4b952a2d
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@3159c4b8
+2022/05/01 11:28:31 parenthesisCompletor.Sentence@73846619
+2022/05/01 11:28:31 [c , s , s ]
+2022/05/01 11:28:31 [n, o, n, o, n, b, o, n, o, n, b, b, o, n, o, n]
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:32:44 parenthesisCompletor.MultiTree$Node@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 16:49:20 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/01 20:28:02 parenthesisCompletor.Sentence@13a57a3b
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@13a57a3b
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@4566e5bd
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@1ed4004b
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@ff5b51f
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@25bbe1b6
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@5702b3b1
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@69ea3742
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@4b952a2d
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@3159c4b8
+2022/05/02 00:09:05 parenthesisCompletor.Sentence@73846619
+2022/05/02 02:13:52 ()
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 4
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 59
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 93
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 24
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 45
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 45
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 is empty
+2022/05/02 02:19:46 has parent, fill 88
+2022/05/02 02:19:46 resultList size < sentences size
+2022/05/02 02:19:46 ()
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 4
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 []
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 59
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 [4]
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 93
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 [4, 59]
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 24
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 []
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 45
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 [24]
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 45
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 []
+2022/05/02 02:22:48 is empty
+2022/05/02 02:22:48 has parent, fill 88
+2022/05/02 02:22:48 resultList size < sentences size
+2022/05/02 02:22:48 [45]
+2022/05/02 02:22:48 ()
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 4
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 []
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 59
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 [4]
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 93
+2022/05/02 02:24:08 parent fill (4+59)
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 []
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 24
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 []
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 45
+2022/05/02 02:24:08 parent fill (24)
+2022/05/02 02:24:08 parent fill ((4+59))
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 []
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 45
+2022/05/02 02:24:08 resultList size < sentences size
+2022/05/02 02:24:08 [((4+59))]
+2022/05/02 02:24:08 is empty
+2022/05/02 02:24:08 has parent, fill 88
+2022/05/02 02:24:08 ()
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 4
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [4]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 59
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [4, 59]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 93
+2022/05/02 02:27:15 parent fill (4+59)
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [(4+59)]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 24
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [24]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 45
+2022/05/02 02:27:15 parent fill (24)
+2022/05/02 02:27:15 parent fill ((4+59))
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [((4+59))]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 45
+2022/05/02 02:27:15 resultList size < sentences size
+2022/05/02 02:27:15 [((4+59)), 45]
+2022/05/02 02:27:15 is empty
+2022/05/02 02:27:15 has parent, fill 88
+2022/05/02 02:27:15 ()
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 4
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [4]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 59
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [4, 59]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 93
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [4, 59, 93]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 24
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [24]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 45
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [24, 45]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 45
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [45]
+2022/05/02 02:28:31 is empty
+2022/05/02 02:28:31 has parent, fill 88
+2022/05/02 02:28:31 resultList size < sentences size
+2022/05/02 02:28:31 [45, 88]
+2022/05/02 02:28:31 ()
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 4
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 59
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 93
+2022/05/02 02:42:40 resultList size == sentences size
+2022/05/02 02:42:40 [4, 59, 93]
+2022/05/02 02:42:40 parent fill (4+59+93)
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 24
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 45
+2022/05/02 02:42:40 resultList size == sentences size
+2022/05/02 02:42:40 [24, 45]
+2022/05/02 02:42:40 parent fill (24/45)
+2022/05/02 02:42:40 resultList size == sentences size
+2022/05/02 02:42:40 [(4+59+93), (24/45)]
+2022/05/02 02:42:40 parent fill ((4+59+93)-(24/45))
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 45
+2022/05/02 02:42:40 is empty
+2022/05/02 02:42:40 has parent, fill 88
+2022/05/02 02:42:40 resultList size == sentences size
+2022/05/02 02:42:40 [((4+59+93)-(24/45)), 45, 88]
+2022/05/02 02:42:40 ()
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 4
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 59
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 93
+2022/05/02 02:48:18 resultList size == sentences size
+2022/05/02 02:48:18 [4, 59, 93]
+2022/05/02 02:48:18 parent fill (4+59+93)
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 24
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 45
+2022/05/02 02:48:18 resultList size == sentences size
+2022/05/02 02:48:18 [24, 45]
+2022/05/02 02:48:18 parent fill (24/45)
+2022/05/02 02:48:18 resultList size == sentences size
+2022/05/02 02:48:18 [(4+59+93), (24/45)]
+2022/05/02 02:48:18 parent fill ((4+59+93)-(24/45))
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 45
+2022/05/02 02:48:18 is empty
+2022/05/02 02:48:18 has parent, fill 88
+2022/05/02 02:48:18 resultList size == sentences size
+2022/05/02 02:48:18 [((4+59+93)-(24/45)), 45, 88]
+2022/05/02 02:48:18 (((4+59+93)-(24/45))*45+88)
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 4
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 59
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 93
+2022/05/02 02:51:29 resultList size == sentences size
+2022/05/02 02:51:29 [4, 59, 93]
+2022/05/02 02:51:29 parent fill 4+59+93
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 24
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 45
+2022/05/02 02:51:29 resultList size == sentences size
+2022/05/02 02:51:29 [24, 45]
+2022/05/02 02:51:29 parent fill 24/45
+2022/05/02 02:51:29 resultList size == sentences size
+2022/05/02 02:51:29 [(4+59+93), (24/45)]
+2022/05/02 02:51:29 parent fill (4+59+93)-(24/45)
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 45
+2022/05/02 02:51:29 is empty
+2022/05/02 02:51:29 has parent, fill 88
+2022/05/02 02:51:29 resultList size == sentences size
+2022/05/02 02:51:29 [((4+59+93)-(24/45)), 45, 88]
+2022/05/02 02:51:29 ((4+59+93)-(24/45))*45+88

@@ -15,9 +15,8 @@ public class TreeBuilder{
 		rules.responce();
 		Out out = new Out();
 		for(Structurable c: tree){
-			out.log(c);
+			tree.getCurrentNode().visit();
 		}
-		marker.logComplexity(tree.getCurrent().getSentences());
-		marker.log();
+		out.log(tree.resultString);
 	}
 }

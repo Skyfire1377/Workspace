@@ -13,5 +13,5 @@ public interface Structurable{
 	public boolean isEmpty();
 	public List<Structurable> getSentences();
 	public List<String> getOperations();
-	public void fill(String s);
+	public String getValue();
 }
