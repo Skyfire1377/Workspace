@@ -549,6 +549,8 @@ nnoremap <BS> :tabnext<ENTER>
 "nnoremap <S-Tab> :tabprevious<ENTER>
 nnoremap = $
 nnoremap - ^
+nnoremap L $
+nnoremap H ^
 vnoremap = $
 vnoremap - ^
 nnoremap <A-s> :GoToSrc<ENTER>

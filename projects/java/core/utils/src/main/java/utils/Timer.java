@@ -5,13 +5,17 @@ public class Timer{
 	public void start(){
 		startTime = System.currentTimeMillis();
 	}
-	public void end(){
+	public void stop(){
 		endTime = System.currentTimeMillis();
+	}
+	public long currentTime(){
+		return System.currentTimeMillis()-startTime;
 	}
 	public long result(){
 		return endTime - startTime;
 	}
 	public String toString(){
-		return "Time is: " + (double)result()/1000 + " seconds";
+		String res = String.valueOf((double)result());
+		return res;
 	}
 }	

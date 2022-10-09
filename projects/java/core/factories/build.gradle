@@ -25,6 +25,7 @@ dependencies {
     implementation project(":geom")
     implementation project(":utils")
     implementation project(":generators")
+    implementation project(":interfaces")
 }
 
 application {

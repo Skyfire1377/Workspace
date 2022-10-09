@@ -21,5 +21,12 @@ public class Out{
 		IOFiles iof = new IOFiles(filePath);
 		iof.write(stringData);
 	}
+	public void printArray(Object[] args){
+		String outLine="";
+		for(int i=0;i<args.length;i++){
+			outLine+=args[i]+" ";
+		}
+		System.out.println(outLine);
+	}
 
 }

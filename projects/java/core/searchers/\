@@ -1,0 +1,108 @@
+package searchers;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.ArrayList;
+import interfaces.*;
+import utils.Out;
+import utils.Timer;
+public class SumThreeFaster implements ObservableCustomInterface{
+	public String name="Sum of three faster";
+	List<ObserverInterface> subscribers = new ArrayList<>();
+	public long cycles=0;
+	Out out = new Out();
+	Timer timer = new Timer();
+	public long count(List<Integer> list){
+		long count =0;
+		int i = 0;
+		int j=list.size()-1;
+		int firstValue=0;
+		int secondValue=0;
+		int thirdValue=0;
+		int secondIndex=-1;
+		int thirdIndex=-1;
+		int increment;
+		Collections.sort(list);
+
+		int signChangeIndex=0;
+		for(int s=0;s<list.size();s++){
+			if(list.get(s)>=0){
+				signChangeIndex=s;
+				break;
+			}
+			
+		}
+		int diff = list.size()-signChangeIndex;
+		int partLength = list.size()/10;
+		int innerPart = 0;
+		int outerPart = 0;
+		int iv = list.get(i);
+		int jv = list.get(j);
+		for(int e=0;e<list.size();e++){
+			if(i==j){
+				break;
+			}
+			if(innerPart<partLength){
+				innerPart++;
+			}else{
+				innerPart=0;
+				outerPart++;
+				for(ObserverInterface o:subscribers){
+					Object[] ob = {outerPart};
+					o.notififyEvent("arrived next", ob);
+				}
+			}
+			
+			//out.println("i="+i+" j="+j+" count=" +count);
+			if(-iv>jv){
+				//out.println("left");
+				firstValue = iv;
+				secondIndex=j;
+				//increment=-1;
+				thirdIndex=signChangeIndex;
+				int fvi = -firstValue;
+				//int length=diff;
+				secondValue=list.get(secondIndex);
+				thirdValue=list.get(thirdIndex);
+				int sumi=0;
+				while((thirdIndex-secondIndex)!=0){
+					if(thirdIndex-secondIndex==-1){
+						i++;
+						iv = list.get(i);
+					}
+					sumi = (secondValue+thirdValue);
+					
+					if(fvi<sumi){
+						//////out.println("fvi<svtv");
+						secondIndex-=1;
+						secondValue=list.get(secondIndex);
+						//////thirdIndex=secondIndex+increment;
+					}else if(fvi==sumi){
+						//////out.println("fvi>svtv, thiIn+=-inc");
+						thirdIndex-=increment;
+						thirdValue=list.get(thirdIndex);
+						////count++;
+					}else{
+						thirdIndex-=increment;
+						thirdValue=list.get(thirdIndex);
+					}
+				}
+			}else{
+				//out.println("right");
+				firstValue = jv;
+				secondIndex=i;
+				increment=1;
+			}
+
+		}
+		return count;
+	}
+	public void subscribe(ObserverInterface o){
+		subscribers.add(o);
+	}
+	public List<Integer> getList(){
+		List<Integer> list = new ArrayList<>();
+		return list;
+	}
+}
+

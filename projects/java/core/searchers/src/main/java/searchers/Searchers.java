@@ -23,13 +23,13 @@ public class Searchers {
 	BruteForceSearcher bfs = new BruteForceSearcher();
 	t.start();
 	indexOfValue = bfs.search(list, 756);
-	t.end();
+	t.stop();
 	out.log("BruteForce: " + indexOfValue + " " + t.toString());
 	BinarySearcher bs = new BinarySearcher();
 	t.start();
 	Collections.sort(list);
 	indexOfValue = bs.search(list, 756, 0, list.size());
-	t.end();
+	t.stop();
 	out.log("BinarySearch: " + indexOfValue + " " + t.toString());
 
     }

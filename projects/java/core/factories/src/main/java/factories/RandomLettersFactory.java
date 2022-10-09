@@ -10,7 +10,7 @@ public class RandomLettersFactory{
 		ListStringFactory sf = new ListStringFactory();
 		List<String> list = sf.create(quantity);
 		StringBuilder sb = new StringBuilder();
-		String resultString = sb.buildByRowWidth(list, 28, "");
+		String resultString = sb.byStrings(list, 28, "");
 		return resultString;
 	}
 }
